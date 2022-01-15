@@ -5,7 +5,7 @@ body {
   margin: 0;
   font-size: 14px;
   font-family: Roboto, sans-serif;
-  color: #f5f2eb;
+  color: #F9FAF8;
   display: flex;
   flex-direction: column;
 }
@@ -20,19 +20,19 @@ ul {
 button {
   width: 108px;
   height: 30px;
-  color: #f5f2eb;
-  background-color: #6d1f09;
+  color: #F9FAF8;
+  background-color: #3882F6;
   border: 0;
   border-radius: 5px;
 }
 
 .text {
-  color: #f5f2ebCC;
+  color: #F9FAF8CC;
 }
 
 /* HEADER */
 .header {
-  background-color: #3c2e27;
+  background-color: #1F2937;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,16 +40,16 @@ button {
 }
 .header-logo {
   font-size: 18px;
-  color: #f5f2eb;
+  color: #F9FAF8;
   font-weight: 700;
 }
 .header-links {
-  color: #f5f2ebCC;
+  color: #F9FAF8CC;
 }
 
 /* BANNER */
 .banner {
-  background-color: #3c2e27;
+  background-color: #1F2937;
   display: flex;
   column-gap: 16px;
   padding: 72px 150px 104px;
@@ -81,14 +81,14 @@ button {
 }
 .examples-title {
   text-align: center;
-  color: #3c2e27;
+  color: #1F2937;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 36px;
 }
 .examples {
   background-color: white;
-  color: #3c2e27;
+  color: #1F2937;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -106,15 +106,15 @@ button {
 
 /* QUOTE */
 .quote {
-  background-color: #e6c6a5;
+  background-color: #E5E7EB;
   padding: 60px 180px;
-  color: #3c2e2790;
+  color: #1f293790;
   font-size: 20px;
   font-style: italic;
   font-weight: 100;
 }
 .author {
-  color: #3c2e27;
+  color: #1F2937;
   font-style: normal;
   font-weight: 900;
   font-size: 12px;
@@ -124,7 +124,7 @@ button {
 
 /*CONTACT*/
 .contact {
-  background-color: #6d1f09;
+  background-color: #3882F6;
   border-color: white;
   border-width: 40px;
   border-radius: 5px;
@@ -139,12 +139,12 @@ button {
   padding-bottom: 4px;
 }
 .contact-btn {
-  border: 2px solid #f5f2eb;
+  border: 2px solid #F9FAF8;
 }
 
 /* FOOTER */
 .footer {
-  background-color: #3c2e27;
+  background-color: #1F2937;
   text-align: center;
   padding: 24px 150px;
 }
