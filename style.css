@@ -67,6 +67,12 @@ button {
   font-size: 35px;
   font-weight: 900;
 }
+.learn {
+  margin-top: 8px;
+}
+.banner-img {
+  border-radius: 3px;
+}
 
 /* EXAMPLES */
 .info{
@@ -100,10 +106,18 @@ button {
 /* QUOTE */
 .quote {
   background-color: #E5E7EB;
-  display: flex;
-  padding: 48px 150px;
-  color: #1f2937;
-
+  padding: 48px 180px;
+  color: #1f293790;
+  font-size: 20px;
+  font-style: italic;
+}
+.author {
+  color: #1F2937;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  text-align: right;
+  padding-top: 24px;
 }
 
 /*CONTACT*/
@@ -111,12 +125,16 @@ button {
   background-color: #3882F6;
   border-color: white;
   border-width: 40px;
+  border-radius: 5px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 60px 150px;
-  padding: 24px 60px;
+  padding: 32px 60px;
 }
 .contact-title {
-
+  font-weight: bold;
+  padding-bottom: 4px;
 }
 .contact-btn {
   border: 2px solid #F9FAF8;
@@ -125,6 +143,6 @@ button {
 /* FOOTER */
 .footer {
   background-color: #1F2937;
-  display: flex;
+  text-align: center;
   padding: 24px 150px;
 }
