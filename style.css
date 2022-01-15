@@ -52,13 +52,13 @@ button {
   background-color: #1F2937;
   display: flex;
   column-gap: 16px;
-  padding: 48px 150px;
+  padding: 72px 150px 104px;
   justify-content: space-between;
 
 }
 .banner-content {
-  min-height: 267px;
-  min-width: 250px;
+  min-height: 250px;
+  min-width: 275px;
   max-width: 600px;
   display: flex;
   flex-direction: column;
@@ -107,7 +107,7 @@ button {
 /* QUOTE */
 .quote {
   background-color: #E5E7EB;
-  padding: 48px 180px;
+  padding: 60px 180px;
   color: #1f293790;
   font-size: 20px;
   font-style: italic;
@@ -132,7 +132,7 @@ button {
   justify-content: space-between;
   align-items: center;
   margin: 60px 150px;
-  padding: 32px 60px;
+  padding: 48px 60px;
 }
 .contact-title {
   font-weight: bold;
