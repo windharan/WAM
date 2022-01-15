@@ -3,7 +3,7 @@
 body {
   min-height: 100vh;
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   font-family: Roboto, sans-serif;
   color: #F9FAF8;
   display: flex;
@@ -19,9 +19,19 @@ ul {
 }
 
 button {
-  width: 150px;
+  width: 108px;
+  height: 30px;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border: 0;
+  border-radius: 5px;
 }
 
+.text {
+  color: #F9FAF8CC;
+}
+
+/* HEADER */
 .header {
   background-color: #1F2937;
   display: flex;
@@ -36,15 +46,18 @@ button {
   font-weight: 700;
 }
 
+/* BANNER */
 .banner {
   background-color: #1F2937;
   display: flex;
   column-gap: 16px;
   padding: 48px 150px;
+  justify-content: space-between;
 
 }
 .banner-content {
   height: 225px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -54,7 +67,7 @@ button {
   font-weight: 900;
 }
 
-
+/* EXAMPLES */
 .examples {
   background-color: white;
   color: #1F2937;
@@ -65,10 +78,14 @@ button {
 }
 .card {
   max-width: 125px;
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
 }
+.card-img {
+  border-radius: 5px;
+}
 
+/* QUOTE */
 .quote {
   background-color: #E5E7EB;
   display: flex;
@@ -77,6 +94,7 @@ button {
 
 }
 
+/*CONTACT*/
 .contact {
   background-color: #3882F6;
   border-color: white;
@@ -85,13 +103,16 @@ button {
   margin: 60px 150px;
   padding: 24px 60px;
 }
+.contact-title {
 
+}
+.contact-btn {
+  border: 2px solid #F9FAF8;
+}
+
+/* FOOTER */
 .footer {
   background-color: #1F2937;
   display: flex;
   padding: 24px 150px;
-}
-
-.text {
-
 }
