@@ -56,7 +56,8 @@ button {
 
 }
 .banner-content {
-  height: 225px;
+  min-height: 225px;
+  min-width: 300px;
   max-width: 600px;
   display: flex;
   flex-direction: column;
@@ -68,13 +69,23 @@ button {
 }
 
 /* EXAMPLES */
+.info{
+}
+.examples-title {
+  text-align: center;
+  color: #1F2937;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 36px;
+}
 .examples {
   background-color: white;
   color: #1F2937;
-  padding: 48px 150px;
+  padding: 36px 150px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
+  column-gap: 36px;
 }
 .card {
   max-width: 125px;
@@ -83,6 +94,7 @@ button {
 }
 .card-img {
   border-radius: 5px;
+  margin-bottom: 8px;
 }
 
 /* QUOTE */
